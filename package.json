@@ -1,0 +1,27 @@
+{
+  "name": "heroku-native-plugin-example",
+  "description": "Example native plugin",
+  "version": "1.0.0",
+  "author": "Jeff Dickey",
+  "bugs": {
+    "url": "https://github.com/dickeyxxx/heroku-native-plugin-example/issues"
+  },
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^1.8.4"
+  },
+  "gypfile": true,
+  "homepage": "https://github.com/dickeyxxx/heroku-native-plugin-example",
+  "keywords": [
+    "heroku-plugin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dickeyxxx/heroku-native-plugin-example"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  }
+}
